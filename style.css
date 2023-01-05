@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*         comon style      */
+
+section{
+    margin-bottom: 100px;
+}
+
+/*       header section style    */
+header{
+    background-image: url(img/donation13.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px ;
+}
+.banner{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: inherit;
+}
+.banner-title , h1{
+    font-size: 60px;
+}
+.banner-dsc{
+    padding: 30px;
+    text-align: center;
+}
+
+/*         donat today section         */
+.donated-container{
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+}
+.primar-container{
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
+    padding: 50px;
+ 
+}
+.primary-title{
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.primary-dsc{
+    padding:5px 50px;
+    margin: 0 20px;
+}
+.amouts{
+    display: flex;
+    justify-content: space-around;
+    margin:30px 0;
+}
+.amout{
+    padding: 40px 40px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+}
+#amout-selected{
+    border:2px solid #ef738c58;
+    background-color: #ffa9ba75;
+}
+#amout-disabled{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    border-width: 0px 0px 5px 0px;
+}
+.btn-primary{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 40px;
+    display: inline-block;
+    background-color: #ef738c;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+/*        donat plan  section      */
+
+.donat-plan-container{
+    width: 80%;
+    margin: 100px auto;
+}
+.donat-plan-container .primary-dsc{
+    width: 60%;
+    margin: 0 auto;
+}
+.plan-card-container{
+    display: flex;
+    gap:10px;
+    margin: 30px;
+
+}
+.plan-card{
+    background-color: azure;
+    padding: 20px;
+    box-shadow: 6px 6px 10px wheat;
+    border-radius: 15px;
+}
+.plan-card img{
+    height: 80px;
+}
+.card-title{
+    font-size: 26px;
+    margin: 10px 0;
+    padding: 20px 20px 10px;
+    font-weight: 600;
+}
+.card-dsc{
+    padding:0 20px 20px;
+    font-size: 18px;
+}
+#color-bg2{
+    background-color: #ef738c;
+}
+#color-bg3{
+    background-color: cyan;
+}
+
+/*         depanding section style       */
+.extra-container{
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+}
+.depand-container{
+    width: 100%;
+    margin: 100px auto;
+    padding: 10px;
+}
+.depands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-contend {
+   padding: 0px 50px ;
+}
+.text-contend h2{
+    font-size: 40px ;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.depands img{
+    width: 100%;
+    height: 70vh;
+    padding:0 40px;
+    overflow: auto;
+    object-fit: cover;
+    border-radius: 45px;
+}
+.depends-dsc{
+   font-size: 18px;
+}
+.get-updets{
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*       get update section        */
+
+.emails-contend{
+    background-color: #ef738c;
+    text-align: center;
+    padding: 80px 0;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+.emails-contend input{
+    padding: 15px ;
+    border: 0;
+    border-radius: 5px;
+}
+.emails-contend input[type="submit"]{
+   margin-left: -15px;
+}
+/*          footer section          */
+
+footer{
+    background-color: black;
+    height: 30vh;
+}
+.text-center h3{
+    text-align: center;
+    color: tomato;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px 0 10px;
+    font-size: 30px;
+    overflow: auto;
+}
+.text-center p{
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
